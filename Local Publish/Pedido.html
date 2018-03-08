@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 12 - http://www.wysiwygwebbuilder.com">
+<link href="WWB_Template_03.css" rel="stylesheet">
+<link href="Pedido.css" rel="stylesheet">
+<script>
+//<![CDATA[
+function establecer(opcion){
+var seleccion = document.getElementById(opcion).checked;
+if(seleccion == false){
+document.getElementById(opcion).checked = true;
+}else{
+document.getElementById(opcion).checked = false;
+}
+}
+//]]>
+</script>
+</head>
+<body>
+<div id="container">
+ <h1> Registro de Nuevos Clientes </h1>
+ 
+ <form method="GET" action="pedido.jsp">
+ <div class="userinput">
+   <label> Nombre de usuario   </label>
+   <input type="text" name="userName" value="" />
+  </div>
+<div class="userinput">
+   <label> Contraseña   </label>
+   <input type="text" name="password" value="" />
+  </div>
+
+<div class="userinput">
+   <label> Direccion de envio  </label>
+   <input type="text" name="address" value="" />
+  </div>
+
+<div class="userinput">
+   <label> Telefono de contacto   </label>
+   <input type="text" name="telephone" value="" />
+  </div>
+  
+  <div class="userinput">
+   <label> Email   </label>   
+   <input type="text" name="email" value="" />
+  </div>
+
+ <div class="userinput">
+   <label> Producto   </label>   
+   <input type="text" name="Product" value="" />
+  </div>
+
+ <div class="userinput">
+   <label> Cantidad   </label>   
+   <input type="text" name="Cantidad" value="" />
+  </div>
+
+
+  <div class="userinput">
+   <label> Forma de Pago </label>
+
+   <input type="radio" name="info" value="Efectivo"/> Efectivo
+   <input type="radio" name="info" value="Cheque" /> Cheque 
+ <input value="Debito" name="info" type="radio" onclick="establecer('Ahorro');"> Debito 
+<input value="Credito" name="info" type="radio" onclick="establecer('Visa');"> Credito
+<p><label>Debito</label></p>
+<input value="Ahorro" name="deb" id="Ahorro" type="radio">Ahorro
+<input value="Corriente" name="deb" id="Corriente" type="radio">Corriente
+</p>
+<p><label>Credito</label></p>
+<input value="Visa" name="cred" id="Visa" type="radio">Visa
+><input value="Mastercard" name="cred" id="Mastercard" type="radio">Mastercard
+<input value="Americanexpress" name="cred" id="Americanexpress" type="radio">American express
+<input value="Dinnersclub" name="cred" id="Dinnersclub" type="radio">Dinnersclub
+</p>
+
+  </div>
+<p>
+ <div class="userinput">
+   <label> Metodo de envio </label>
+
+   <input type="radio" name="met" value="Dhl"/> Dhl
+   <input type="radio" name="met" value="Tealca" /> Tealca
+<input type="radio" name="met" value="Mrw"/> Mrw
+   <input type="radio" name="met" value="Zoom" /> Zoom
+<input type="radio" name="met" value="Ipostel" /> Ipostel
+<div class="userinput">
+</p>
+
+ 
+  <div class="userinput">
+  <p><label>Commentarios     </label></p>
+   <textarea name="comments" palceholder="Search here" rows="7" cols="40"></textarea>
+  </div>
+  <div style="text-align:center">
+   <input type="reset" class="sampleBtn"/>
+   <input type="submit" class="sampleBtn"/>   
+  </div>
+  
+ </form>
+ 
+ </div>
+<div id="wb_Heading1" style="position:absolute;left:1px;top:32px;width:102px;height:31px;z-index:0;">
+<h2 id="Heading1"><a href="./index.html">Ir a Inicio</a></h2></div>
+</body>
+</html>
