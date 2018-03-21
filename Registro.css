@@ -1,0 +1,110 @@
+body
+{
+   background-color: #FFFFFF;
+   color: #000000;
+   font-family: Arial;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 1.1875;
+   margin: 0;
+   padding: 0;
+}
+#wb_Heading1
+{
+   background-color: transparent;
+   background-image: url(images/Registro_Heading1_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+   border: 0px #FFFFFF solid;
+   padding: 0px 0px 0px 0px;
+   text-align: left;
+}
+#Heading1
+{
+   color: #FFFFFF;
+   font-family: "Century Gothic";
+   font-weight: bold;
+   font-size: 21px;
+   margin: 0;
+   text-align: left;
+}
+#Heading1 a
+{
+   color: #FFFFFF;
+   text-decoration: none;
+}
+  
+            body{
+
+
+             background: blue;
+             margin: 0 auto;
+             font-family: arial;
+            }
+
+            h1{
+
+             color: black;
+             text-align: center;
+            }
+      label{
+
+       color: #777;
+       width: 10%;
+       display: inline-block;
+
+      }
+
+      #container{
+
+
+       padding: 20px;
+       width: 60%;
+       margin: 0 auto;
+       margin-top: 1%;
+       margin-bottom: 1%;
+       background-color: white;
+      }
+
+   .userinput{
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 30px;
+
+   }
+   label{
+
+    color: blue;
+    font-size: 12px;
+   }
+   textarea{
+ color: black;
+    font-size: 14px;
+
+
+   }
+
+   select{
+
+    color: black;
+   }
+  
+
+   .sampleBtn{
+      
+       background-color: #f1f1f1;
+       width: 20%;
+       height: 35px;
+       font-size: 16px;
+
+   }
+   .sampleBtn:hover{
+
+          color: white;
+          background-color: blue;
+          cursor: pointer;
+   }
+ 
